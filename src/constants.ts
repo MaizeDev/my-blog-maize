@@ -1,4 +1,5 @@
 import type { Props } from "astro";
+import type { GiscusProps } from "@giscus/react";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
@@ -81,3 +82,21 @@ export const SHARE_LINKS: Social[] = [
     icon: IconMail,
   },
 ] as const;
+
+/**
+ * 布局中的嵌入式脚本标签非常静态，Giscus 配置（包括主题）被硬编码到布局中。
+ * 鉴于 AstroPaper 具有明/暗主题切换功能，因此最好能让注释与网站的其他部分一起在明暗主题之间无缝切换。
+ * 要实现这一目标，需要采用更复杂的方法来嵌入 Giscus。
+ */
+export const GISCUS: GiscusProps = {
+  repo: "MaizeDev/my-blog-maize",
+  repoId: "R_kgDORtUmug",
+  category: "Announcements",
+  categoryId: "DIC_kwDORtUmus4C5AQe",
+  mapping: "pathname",
+  reactionsEnabled: "1",
+  emitMetadata: "0",
+  inputPosition: "bottom",
+  lang: "zh-CN",
+  loading: "lazy",
+};

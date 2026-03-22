@@ -78,7 +78,7 @@ export const SHARE_LINKS: Social[] = [
   {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
-    linkTitle: `Share this post via email`,
+    linkTitle: `Send this post to my email`,
     icon: IconMail,
   },
 ] as const;

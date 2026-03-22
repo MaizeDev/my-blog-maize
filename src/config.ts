@@ -1,9 +1,9 @@
 export const SITE = {
   website: "https://6782733.xyz", // 您部署的网站 URL
-  author: "星辰大海", // 您的姓名
+  author: "Starry Sea", // 您的姓名 
   profile: "", // 您的个人/作品集网站URL，用于更好地进行搜索引擎优化。如果没有，请输入空字符串""。
   desc: "记录技术与思考，分享开发实践、AI探索与互联网折腾日常。", // 您的网站描述。有助于搜索引擎优化和社交媒体分享。
-  title: "星辰大海", // 您的网站名称
+  title: "Starry Sea", // 您的网站名称
   ogImage: "astropaper-og.jpg", // 网站的默认 OG 图片。可用于社交媒体分享。OG 图片可以是外部图片 URL，也可以放在 /public 目录下。
   lightAndDarkMode: true, // 启用或禁用网站的明暗模式。如果禁用，将使用主色调方案。该选项默认为启用。
   postPerIndex: 4, // 在主页 "最近 "部分显示的帖子数量。
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: { // 此选项允许用户通过在博文标题下提供编辑链接，对博文提出修改建议。将 SITE.editPost.enabled 设为 false，即可禁用此功能。
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/MaizeDev/my-blog-maize/edit/main/",
   },
   dynamicOgImage: true, // 如果博文前言中没有指定 ogImage，该选项将控制是否生成动态 og-image。如果你有很多博文，你可能想禁用这一功能。更多详情，请参阅权衡。
   dir: "ltr", // "rtl" | "auto"  指定整个博客的文本方向。用作 <html dir="ltr"> 中的 HTML 方向属性。支持值：ltr | rtl | auto

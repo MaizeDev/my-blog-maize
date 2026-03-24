@@ -6,7 +6,7 @@ export const BLOG_PATH = "src/data/blog";
 
 const blog = defineCollection({
   loader: glob({ 
-    pattern: ["**/[^_]*.md", "!_templates/**"], 
+    pattern: ["**/[^_]*.md", "!_templates/**", "!_examples/**", "!_releases/**"], 
     base: `./${BLOG_PATH}` 
   }),
   schema: ({ image }) =>

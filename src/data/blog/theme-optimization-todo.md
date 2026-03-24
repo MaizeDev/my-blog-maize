@@ -5,7 +5,7 @@ pubDatetime: 2026-03-24T19:51:22Z
 modDatetime: 2026-03-24T19:51:22Z
 slug: theme-optimization-todo
 featured: false
-draft: true
+draft: false
 tags:
   - optimization
   - todo

@@ -1,13 +1,12 @@
 ---
-title: "{{title}}"
-author: "{{author}}"
-pubDatetime: "{{date}}T{{time}}Z"
-modDatetime: "{{date}}T{{time}}Z"
-slug: "{{slug}}"
+title: <% tp.file.title %>
+author: Starry Sea
+pubDatetime: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modDatetime: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+slug: <% tp.file.title %>
 featured: false
-draft: true
+draft: false
 tags:
-  - "{{tag1}}"
 description: "{{description}}"
 ---
 

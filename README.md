@@ -1,35 +1,3 @@
----
-title: "{{title}}"
-author: "{{author}}"
-pubDatetime: "{{date}}T{{time}}Z"
-modDatetime: "{{date}}T{{time}}Z"
-slug: "{{slug}}"
-featured: false
-draft: true
-tags:
-  - "{{tag1}}"
-description: "{{description}}"
----
-
-<!-- 
-Obsidian Template Variables:
-- {{title}}: 文章标题
-- {{author}}: 作者姓名
-- {{date}}: 当前日期 (YYYY-MM-DD)
-- {{time}}: 当前时间 (HH:mm:ss)
-- {{slug}}: URL友好的文章标识符（建议使用小写字母、数字和连字符）
-- {{tag1}}: 主要标签
-- {{description}}: 文章简短描述（用于SEO和卡片展示）
-
-使用说明：
-1. 在Obsidian中安装"Templater"插件
-2. 将此模板文件放入Obsidian的模板文件夹
-3. 配置Templater插件的模板文件夹路径
-4. 使用命令面板调用模板
-
-文章正文从这里开始...
---># AstroPaper 📄
-
 ![AstroPaper](public/astropaper-og.jpg)
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)

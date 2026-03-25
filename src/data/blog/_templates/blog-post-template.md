@@ -7,7 +7,7 @@ slug: <% tp.file.title %>
 featured: false
 draft: false
 tags:
-description: "{{description}}"
+description:
 ---
 
 <!-- 

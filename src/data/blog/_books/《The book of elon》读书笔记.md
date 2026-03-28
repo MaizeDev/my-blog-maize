@@ -1,9 +1,9 @@
 ---
-title: 《The book of elon》阅读笔记
+title: 《The book of elon》读书笔记
 author: Starry Sea
-pubDatetime: 2026-03-28
-modDatetime: 23:07:18
-slug: The-book-of-elon
+pubDatetime: 2026-03-28T23:34:43+08:00
+modDatetime: 2026-03-28T23:34:43+08:00
+slug: 《The book of elon》读书笔记
 featured: false
 draft: false
 tags:

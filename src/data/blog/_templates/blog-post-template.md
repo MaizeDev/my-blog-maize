@@ -2,7 +2,7 @@
 title: "{{title}}"
 author: Starry Sea
 pubDatetime: "{{date}}"
-modDatetime: "{{time}}"
+modDatetime: "{{date}}"
 slug: "{{title}}"
 featured: false
 draft: false
